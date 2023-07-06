@@ -4,4 +4,4 @@
 
 This extension adds a button on the end-of-game screen on chess.com to directly analyze the game on lichess
 
-![Button demo] (./res/img/demo.png)
+![Button demo](./res/img/demo.png)
