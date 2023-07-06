@@ -1,0 +1,9 @@
+.lichess-analysis-button {
+    text-align: center;
+    color: white;
+    font-size: large;
+    
+    border-radius: 4px;
+    padding: 10px;
+    background-color: cornflowerblue;
+}

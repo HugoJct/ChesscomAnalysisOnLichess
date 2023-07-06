@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Lichess Analysis from chess.com",
+    "version": "0.1",
+    "content_scripts": [
+        {
+          "js": ["content_scripts/chesscom.js"],
+          "css": ["style/index.css"],
+          "matches": ["https://www.chess.com/game/live/*"]
+        },
+        {
+            "js": ["content_scripts/lichess.js"],
+            "matches": ["https://lichess.org/paste"]
+        }
+      ],
+      "permissions": [
+        "storage"
+      ] 
+}
