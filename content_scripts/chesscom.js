@@ -32,12 +32,12 @@ function addButton() {
 
         let PGNShare;
 
-        const interval = setInterval(() => {
+        const interval2 = setInterval(() => {
             PGNShare = document.querySelector('.share-menu-tab-selector-tab');
             if(PGNShare != null) {
                 PGNShare.click();
 
-                clearInterval(interval);
+                clearInterval(interval2);
                 copyPGN();
             }
         }, 50);
